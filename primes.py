@@ -1,6 +1,6 @@
 def primes(number_of_primes):
     if number_of_primes<=0:
-        raise ValueError
+        raise ValueError("number of primes must be greater than 0")
     list = []
     i = 0
     number = 2
